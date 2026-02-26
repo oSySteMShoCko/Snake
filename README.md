@@ -1,17 +1,50 @@
-# Snake Game
+# Snake Game Pro
 
-Ein klassisches Snake-Spiel, implementiert in HTML5 Canvas, CSS und Vanilla JavaScript.
+Willkommen bei **Snake Game Pro**! Dies ist eine moderne und erweiterte Version des klassischen Snake-Spiels.
 
-## Anleitung
+## Features
 
-1. Oeffne die Datei `index.html` in deinem Webbrowser. (Du kannst auch GitHub Pages oder einen Live Server benutzen).
-2. Steuere die Schlange mit den **Pfeiltasten**.
-3. Sammle die roten Bloecke, um zu wachsen und Punkte zu sammeln.
-4. Vermeide es, gegen die Waende oder deinen eigenen Koerper zu prallen!
+* **Klassisches Gameplay:** Das bekannte und beliebte Spielprinzip im neuen Gewand.
+* **Modernes Design:** Saubere UI und fluessige Animationen.
+* **Highscore-Tracking:** Dein bester Score wird lokal im Browser (LocalStorage) gespeichert und bleibt auch nach einem Neuladen erhalten!
+* **Responsive:** Unterstuetzt Tastatursteuerung und kann bei Bedarf fuer Touch-Geraete angepasst werden.
+* **Verschiedene Schwierigkeitsgrade:** Von Anfaenger bis Profi (anpassbare Geschwindigkeit).
 
-## Verwendete Technologien
-- HTML5 Canvas (fuer das Rendering)
-- CSS3 (fuer ein modernes, dunkles Layout)
-- Vanilla JavaScript (Spiellogik)
+## Installation & Start
 
-Viel Spass beim Spielen und Weiterentwickeln!
+Um das Projekt lokal auszufuehren, folge diesen Schritten:
+
+1. **Repository klonen:**
+   ```bash
+   git clone https://github.com/oSySteMShoCko/snake-game-pro.git
+   ```
+
+2. **Ins Verzeichnis wechseln:**
+   ```bash
+   cd snake-game-pro
+   ```
+
+3. **Abhaengigkeiten installieren:**
+   ```bash
+   npm install
+   ```
+
+4. **Spiel starten:**
+   ```bash
+   npm run dev
+   ```
+   Oeffne danach deinen Browser unter http://localhost:5173 (oder dem in der Konsole angezeigten Port).
+
+## Technologien
+
+* React / TypeScript
+* DOM Rendering
+* Tailwind CSS
+
+## Mitwirken
+
+Contributions sind jederzeit willkommen! Erstelle gerne ein Issue oder direkt einen Pull Request, falls du Ideen fuer neue Features oder Fehlerbehebungen hast.
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert.
